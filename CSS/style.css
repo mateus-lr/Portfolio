@@ -486,7 +486,7 @@ label span:nth-child(3) {
   gap: 1rem;
 }
 
-.footer p {
+.footer a{
   font-size: 1.8rem;
   color: var(--g10);
 }
@@ -672,10 +672,10 @@ label span:nth-child(3) {
   }
 
   .footerItems {
-    width: 100%;
+    grid-template-columns: 1fr;
   }
 
-  .footer p {
+  .footer a {
     font-size: 1.2rem;
   }
 
