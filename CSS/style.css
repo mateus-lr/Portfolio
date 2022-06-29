@@ -70,14 +70,6 @@ img {
   object-fit: contain
 }
 
-/* header {
-  height: 8rem;
-  position: fixed;  
-  top: 0;
-  margin: 0 auto;
-  width: 100%;
-} */
-
 main {
   padding-top: 8rem;
 }
@@ -111,6 +103,16 @@ h2::after {
   padding: 10rem 20rem 0 20rem;
   background: var(--white);
   position: relative;
+}
+
+.aboutMe::after, .skills::after, .portfolio::after, .footer::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 10rem;
+  width: 5%;
+  height: 0.5rem;
+  background: var(--o2);
 }
 
 p {
@@ -232,8 +234,7 @@ label span:nth-child(3) {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
   border: 0.2rem solid var(--o2);
-  border-radius: 0.4rem;
-  
+  border-radius: 0.2rem;
 }
 
 @keyframes menuItem {
@@ -334,7 +335,6 @@ label span:nth-child(3) {
   text-transform: uppercase;
   background: var(--linear-button);
   box-shadow: var(--shadow);
-  border-radius: 0.4rem;
   transition: 0.5s ease transform;
 }
 
@@ -353,16 +353,6 @@ label span:nth-child(3) {
 }
 
 /* SECTION ABOUT ME */
-.aboutMe::after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 10rem;
-  width: 6.7rem;
-  height: 0.5rem;
-  background: var(--o2);
-}
-
 .aboutMe p {
   font-size: 3rem;
   color: var(--g10);
@@ -370,16 +360,6 @@ label span:nth-child(3) {
 }
 
 /* SECTION SKILLS */
-.skills::after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 10rem;
-  width: 6.5rem;
-  height: 0.5rem;
-  background: var(--o2);
-}
-
 .skills h3 {
   font-size: 2rem;
   font-weight: 600;
@@ -401,16 +381,6 @@ label span:nth-child(3) {
 }
 
 /* SECTION PORTFOLIO */
-.portfolio::after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 10rem;
-  width: 7rem;
-  height: 0.5rem;
-  background: var(--o2);
-}
-
 .allProjects {
   display: flex;
   align-items: center;
@@ -434,26 +404,25 @@ label span:nth-child(3) {
   flex-basis: 50%;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: column;
   background: var(--g2); 
 }
 
 .projectInfo h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-weight: 600;
-  margin-top: 1rem;
   color: var(--g13);
 }
 
 .projectInfo p {
-  font-size: 1.4rem;
+  width: 80%;
+  font-size: 1.8rem;
   margin-top: 0.5rem;
   line-height: 2rem;
   font-weight: 400; 
-  margin-top: 2rem;
   color: var(--g10);
 }
 
@@ -465,7 +434,6 @@ label span:nth-child(3) {
   text-transform: uppercase;
   letter-spacing: .1rem;
   font-weight: 600;
-  margin-top: 2rem;
   border: 0.3rem solid transparent;
   border-image: var(--linear-button);
   border-image-slice: 1;
@@ -504,16 +472,6 @@ label span:nth-child(3) {
 }
 
 /* FOOTER */
-.footer::after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 10rem;
-  width: 6.5rem;
-  height: 0.5rem;
-  background: var(--o2);
-}
-
 .footerItems {
   width: 80%;
   display: grid;
@@ -647,7 +605,7 @@ label span:nth-child(3) {
   }
 
   .introText {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
 
   .introBtn a {
@@ -694,6 +652,15 @@ label span:nth-child(3) {
 
   .skillsList p {
     font-size: 1.6rem;
+  }
+
+  .projectInfo {
+    gap: 2rem;
+  }
+
+  .projectInfo p {
+    font-size: 1.6rem;
+    width: 90%;
   }
 
   .projectItem {

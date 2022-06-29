@@ -19,13 +19,13 @@ This is my portfolio. I'll keep this updated. I know there are some problems to 
 ### Screenshot
 
 <div align="center">
-<img src="./Screenshot/desktop.png">
+<img src="./screenshot/desktop.png">
 <!-- <img src="./Screenshot/mobile.png" width="40%"> -->
 </div>
 
 ### Links
 
-[live Site](https://mateus-lr.github.io/QR-code-component-challenge-on-Frontend-Mentor/)
+[live Site](https://mateus-lr.github.io/Portfolio/)
 
 ### Built with
 
