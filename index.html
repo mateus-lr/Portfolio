@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/ico" sizes="32x32" href="./img/favicon.svg">
+  <link rel="stylesheet" href="./CSS/style.css">
+
+  <title>Mateus Rocha</title>
+</head>
+
+<body>
+  <span id="top"></span>
+  <!-- MENU DE NAVEGAÇÃO -->
+  <header class="header container">
+    <nav class="navbar container">
+      <a href="#top"><img class="logoImg" src="./img/logo.svg" alt="logo do site, a img consiste no simbolo de menor e maior que representa a abertura e fechamento de tags no HTML, eles estão na cor laranja."></a>
+
+      <!-- MENU DESKTOP -->
+      <ul class="menuNav">
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><a class="mailBtnNav" href="mailto:mateus_lr@outlook.com">Let's talk</a></li>
+      </ul>
+
+      <!-- MENU MOBILE -->
+      <div class="menuHamburger">
+        <input type="checkbox" id="checkboxMenu">
+        <label for="checkboxMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro" class="intro container">
+      <!-- INTRO INFORMAÇÕES -->
+
+      <div class="introInfo">
+        <div class="introTitle">
+          <h1>Hello, I'm Mateus</h1>
+          <img src="./img/wave.png" alt="">
+        </div>
+
+        <h2 class="introText">
+          I'm a Frontend<br>Developer
+        </h2>
+
+        <ul class="introList">
+          <li class="github"><a href="https://github.com/mateus-lr"><img src="./img/github.svg" alt="logo github"></a></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/mateus-lr/"><img src="./img/linkedin.svg" alt="logo linkedin"></a></li>
+          <li class="twitter"><a href="https://twitter.com/maatscript"><img src="./img/twitter.svg" alt="logo twitter"></a></li>
+        </ul>
+
+        <div class="introBtn">
+          <a class="portfolioBtn" href="#portfolio">Portfolio</a>
+          <a class="mailBtn" href="mailto:mateus_lr@outlook.com">Let's talk</a>
+        </div>
+      </div>
+
+      <!-- INTRO FOTO -->
+      <div class="introPic">
+        <img src="./img/profile.svg" alt="foto de perfil do mateus rocha">
+      </div>
+    </section>
+
+    <section id="aboutMe" class="aboutMe container">
+      <h2>About Me</h2>
+      <p>I'm in the second semester of Web Development. I'm a person passionate about technology who is looking for his first opportunity in the development area. Besides, I also do other courses and frontend projects beyond college to improve myself more and more. Hopes I can contribute in some way! 🤟🏻 </p>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+
+      <h3>Using Now:</h3>
+      <ul class="skillsList">
+        <li>
+          <img src="./img/HTML 5.svg" alt="Logo HTML">
+          <p>HTML 5</p>
+        </li>
+        <li>
+          <img src="./img/CSS.svg" alt="Logo CSS">
+          <p>CSS 3</p>
+        </li>
+        <li>
+          <img src="./img/Figma.svg" alt="Logo Figma">
+          <p>FIGMA</p>
+        </li>
+      </ul>
+
+      <h3>Learning:</h3>
+      <ul class="skillsList">
+        <li>
+          <img src="./img/JS.svg" alt="Logo Javascript">
+          <p>JS</p>
+        </li>
+        <li>
+          <img src="./img/Git.svg" alt="Logo GIT">
+          <p>GIT</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="portfolio" class="portfolio container">
+      <h2>Portfolio</h2>
+
+      <div class="allProjects">
+        <div class="projectItem">
+          <div class="projectInfo">
+            <h3>NFT preview card component solution</h3>
+            <p>Esse foi meu primeiro projeto feito sozinho.<br> Peguei esse projeto no site Frontend Mentors, eles tem diversos projetos para você testar seus conhecimentos.</p>
+            <a href="https://mateus-lr.github.io/NFT-preview-card-component/" target="_blank">Projeto 1</a>
+          </div>
+          <div class="projectImg">
+            <img src="./img/Projeto 1.png" alt="img">
+          </div>
+        </div>
+
+        <div class="projectItem">
+          <div class="projectInfo">
+            <h3>Order summary card solution</h3>
+            <p>Esse projeto já foi um pouco mais complexo, se trata de um card para venda de um plano de música, nele já comecei a utilizar o conceito de Mobile First.</p>
+            <a href="https://mateus-lr.github.io/Order-summary-card-challenge/" target="_blank">Projeto 2</a>
+          </div>
+          <div class="projectImg">
+            <img src="./img/Projeto 2.png" alt="img">
+          </div>
+        </div>
+
+        <div class="projectItem">
+          <div class="projectInfo">
+            <h3>Stats preview card component solution</h3>
+            <p>Neste terceiro projeto além de utilizar o conceito de Mobile First utilizei também keyframes pela primeira vez.</p>
+            <a href="https://mateus-lr.github.io/Stats-preview-card-component/" target="_blank">Projeto 3</a>
+          </div>
+          <div class="projectImg">
+            <img src="./img/Projeto 3.png" alt="img">
+          </div>
+        </div>
+
+        <div class="projectItem">
+          <div class="projectInfo">
+            <h3>Bikcraft Store</h3>
+            <p>Recentemente adquiri um curso muito bom da ORIGAMID e esse foi meu primeiro projeto desenvolvido com eles. <br> Fiz esse projeto para testar as minhas habilidade com display grid.</p>
+            <a href="https://mateus-lr.github.io/Bikcraft/" target="_blank">Projeto 4</a>
+          </div>
+          <div class="projectImg">
+            <img src="./img/Projeto 4.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer container">
+    <div class="footerInfo">
+      <h2>CONTACT</h2>
+
+      <ul class="footerItems">
+        <li>
+          <img class="footerImg" src="./img/phone.svg" alt="">
+          <p>+55 19 98301-0712</p>
+        </li>
+        <li>
+          <img class="footerImg" src="./img/github.svg" alt="">
+          <p>/mateus-lr</p>
+        </li>
+        <li>
+          <img class="footerImg" src="./img/send.svg" alt="">
+          <p id="email">mateus-lr@outlook.com</p>
+        </li>
+        <li>
+          <img class="footerImg" src="./img/linkedin.svg" alt="">
+          <p>/Mateus Rocha</p>
+        </li>
+      </ul>
+    </div>
+    <div class="footerBtn">
+      <img src="./img/arrow.svg" alt="">
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+</body>
+
+</html>
