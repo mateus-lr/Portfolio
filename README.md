@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
+# Mateus Rocha Portfolio
 
 Hello 👋
 
@@ -20,7 +20,7 @@ This is my portfolio. I'll keep this updated. I know there are some problems to 
 
 <div align="center">
 <img src="./Screenshot/desktop.png">
-<!-- <img src="./Screenshot/mobile.png" width="40%"> -->
+<!-- <img src="./screenshot/mobile.png" width="40%"> -->
 </div>
 
 ### Links
