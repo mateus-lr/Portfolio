@@ -304,6 +304,7 @@ label span:nth-child(3) {
 .portfolioBtn {
   width: 14rem;
   height: 5rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,6 +327,7 @@ label span:nth-child(3) {
 .mailBtn {
   width: 14rem;
   height: 5rem;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -540,8 +542,8 @@ label span:nth-child(3) {
     flex-direction: column;
   }
 
-  .projectInfo{
-    width: 100%;
+  .projectInfo {
+    gap: 5rem;
   }
 
   .projectImg {
