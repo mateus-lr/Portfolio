@@ -84,7 +84,7 @@ a {
   font-family: var(--font-title);
 }
 
-h2 {
+h2:not(.introText) {
   margin-bottom: 2rem;
   font-size: 5rem;
   font-weight: 600;
@@ -93,9 +93,9 @@ h2 {
   color: var(--black);
 }
 
-h2::after {
+h2:not(.introText)::after {
   content: '.';
-  color: var(--orange);
+  color: var(--o2);
 }
 
 .aboutMe, .skills, .portfolio, .footer {
@@ -500,17 +500,11 @@ label span:nth-child(3) {
 
 .footerBtn a {
   display: flex;
-  align-self: center;
+  align-items: center;
   padding: 2rem;
   padding-left: 0;
   font-size: 2rem;
   color: var(--o2);
-}
-
-.footerBtn img {
-  width: 5rem;
-  height: 5rem;
-  align-self: center;
 }
 
 /* Media Query */
@@ -613,7 +607,7 @@ label span:nth-child(3) {
     height: 4rem;
     font-size: 1.2rem;
   }
-
+  
   .introPic {
     display: none;
   }
@@ -655,7 +649,11 @@ label span:nth-child(3) {
   }
 
   .projectInfo {
-    gap: 2rem;
+    gap: 5rem;
+  }
+
+  .projectInfo h3 {
+    font-size: 2rem;
   }
 
   .projectInfo p {
