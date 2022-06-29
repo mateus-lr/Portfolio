@@ -25,7 +25,7 @@ This is my portfolio. I'll keep this updated. I know there are some problems to 
 
 ### Links
 
-[live Site](https://mateus-lr.github.io/QR-code-component-challenge-on-Frontend-Mentor/)
+[live Site](https://mateus-lr.github.io/Portfolio/)
 
 ### Built with
 
