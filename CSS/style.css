@@ -580,6 +580,7 @@ label span:nth-child(3) {
     z-index: 100000;
     visibility: hidden;
     overflow-y: hidden;
+    touch-action: none;
   }
 
   .menuHamburger {

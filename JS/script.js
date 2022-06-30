@@ -9,6 +9,7 @@ function toggleMenu(event) {
 function closeMenu() {
   const nav = document.getElementById('nav');
   nav.classList.remove('active');
+  document.getElementById('btnMobile').checked = false;
 }
 
 btnMobile.addEventListener('click', toggleMenu);
