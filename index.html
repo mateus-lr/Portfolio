@@ -15,22 +15,23 @@
   <span id="top"></span>
   <!-- MENU DE NAVEGAÇÃO -->
   <header class="header container">
-    <nav class="navbar container">
+
+    <nav class="navbar container" id="nav">
       <a href="#top"><img class="logoImg" src="./img/logo.svg" alt="logo do site, a img consiste no simbolo de menor e maior que representa a abertura e fechamento de tags no HTML, eles estão na cor laranja."></a>
 
       <!-- MENU DESKTOP -->
       <ul class="menuNav">
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#footer">Contact</a></li>
-        <li><a class="mailBtnNav" href="mailto:mateus_lr@outlook.com">Let's talk</a></li>
+        <li><a onclick="closeMenu()" href="#aboutMe">About Me</a></li>
+        <li><a onclick="closeMenu()" href="#skills">Skills</a></li>
+        <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+        <li><a onclick="closeMenu()" href="#footer">Contact</a></li>
+        <li><a onclick="closeMenu()" class="mailBtnNav" href="mailto:mateus_lr@outlook.com">Let's talk</a></li>
       </ul>
 
       <!-- MENU MOBILE -->
       <div class="menuHamburger">
-        <input type="checkbox" id="checkboxMenu">
-        <label for="checkboxMenu">
+        <input type="checkbox" id="btnMobile">
+        <label for="btnMobile">
           <span></span>
           <span></span>
           <span></span>
@@ -54,9 +55,9 @@
         </h2>
 
         <ul class="introList">
-          <li class="github"><a href="https://github.com/mateus-lr"><img src="./img/github.svg" alt="logo github"></a></li>
-          <li class="linkedin"><a href="https://www.linkedin.com/in/mateus-lr/"><img src="./img/linkedin.svg" alt="logo linkedin"></a></li>
-          <li class="twitter"><a href="https://twitter.com/maatscript"><img src="./img/twitter.svg" alt="logo twitter"></a></li>
+          <li class="github"><a href="https://github.com/mateus-lr" target="_blank"><img src="./img/github.svg" alt="logo github"></a></li>
+          <li class="linkedin"><a href="https://www.linkedin.com/in/mateus-lr/" target="_blank"><img src="./img/linkedin.svg" alt="logo linkedin"></a></li>
+          <li class="twitter"><a href="https://twitter.com/maatscript" target="_blank"><img src="./img/twitter.svg" alt="logo twitter"></a></li>
         </ul>
 
         <div class="introBtn">
@@ -166,19 +167,19 @@
       <ul class="footerItems">
         <li>
           <img class="footerImg" src="./img/phone.svg" alt="">
-          <a href="https://wa.me/5519983010712">WhatsApp</a>
+          <a href="https://wa.me/5519983010712 target=" _blank"">WhatsApp</a>
         </li>
         <li>
           <img class="footerImg" src="./img/github.svg" alt="">
-          <a href="https://github.com/mateus-lr">/mateus-lr</a>
+          <a href="https://github.com/mateus-lr" target="_blank">/mateus-lr</a>
         </li>
         <li>
           <img class="footerImg" src="./img/send.svg" alt="">
-          <a href="mailto:mateus_lr@outlook.com">mateus-lr@outlook.com</a>
+          <a href="mailto:mateus_lr@outlook.com" target="_blank">mateus-lr@outlook.com</a>
         </li>
         <li>
           <img class="footerImg" src="./img/linkedin.svg" alt="">
-          <a href="https://www.linkedin.com/in/mateus-lr/">/mateus-lr</a>
+          <a href="https://www.linkedin.com/in/mateus-lr/" target="_blank">/mateus-lr</a>
         </li>
       </ul>
     </div>
@@ -186,6 +187,8 @@
       <a href="#top"><img src="./img/arrow.svg" alt="">Back to top</a>
     </div>
   </footer>
+
+  <script type="text/javascript" src="./JS/script.js"></script>
 </body>
 
 </html>
