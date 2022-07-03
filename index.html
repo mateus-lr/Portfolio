@@ -14,31 +14,34 @@
 <body>
   <span id="top"></span>
   <!-- MENU DE NAVEGAÇÃO -->
-  <header class="header container">
 
-    <nav class="navbar container" id="nav">
+  <div class="container">
+    <header class="header container">
       <a href="#top"><img class="logoImg" src="./img/logo.svg" alt="logo do site, a img consiste no simbolo de menor e maior que representa a abertura e fechamento de tags no HTML, eles estão na cor laranja."></a>
 
-      <!-- MENU DESKTOP -->
-      <ul class="menuNav">
-        <li><a onclick="closeMenu()" href="#aboutMe">About Me</a></li>
-        <li><a onclick="closeMenu()" href="#skills">Skills</a></li>
-        <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
-        <li><a onclick="closeMenu()" href="#footer">Contact</a></li>
-        <li><a onclick="closeMenu()" class="mailBtnNav" href="mailto:mateus_lr@outlook.com">Let's talk</a></li>
-      </ul>
+      <nav class="navbar" id="nav">
 
-      <!-- MENU MOBILE -->
-      <div class="menuHamburger">
-        <input type="checkbox" id="btnMobile">
-        <label for="btnMobile">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
-    </nav>
-  </header>
+        <!-- MENU DESKTOP -->
+        <ul class="menuNav">
+          <li><a onclick="closeMenu()" href="#aboutMe">About Me</a></li>
+          <li><a onclick="closeMenu()" href="#skills">Skills</a></li>
+          <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+          <li><a onclick="closeMenu()" href="#footer">Contact</a></li>
+          <li><a onclick="closeMenu()" class="mailBtnNav" href="mailto:mateus_lr@outlook.com">Let's talk</a></li>
+        </ul>
+
+        <!-- MENU MOBILE -->
+        <div class="menuHamburger">
+          <input type="checkbox" id="btnMobile">
+          <label for="btnMobile">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+  </div>
 
   <main>
     <section id="intro" class="intro container">
