@@ -27,7 +27,7 @@ ScrollReveal({
   distance : '120px',
   easing   : 'ease-in-out',
   reset    : false,
-}).reveal(`.header a, .header nav`);
+}).reveal(`.header a, .menuNav`);
 
 ScrollReveal({
   origin : 'left',
