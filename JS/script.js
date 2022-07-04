@@ -15,3 +15,59 @@ function closeMenu() {
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+
+// SCROLL REVEAL  
+window.sr = ScrollReveal({
+  reset: true
+})
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+  reset    : false,
+}).reveal(`.header a, .header nav`);
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+}).reveal(`.introTitle, .introText, .introList, .introBtn, .introPic`);
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+}).reveal(`.aboutMe h2, .aboutMe p`);
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+}).reveal(`.skills h2, .skills h3`);
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 600,
+  distance : '120px',
+  easing   : 'ease-in-out',
+}).reveal(`.skillsList`);
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+  reset   : true,
+}).reveal(`.portfolio h2, .project1, .project2, .project3, .project4`);
+
+ScrollReveal({
+  origin : 'left',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+}).reveal(`.footer h2, .footerItems`);

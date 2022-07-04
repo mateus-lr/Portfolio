@@ -4,6 +4,7 @@
   /* COLORS */
   --white: #ffffff;
   --g2: #F5F5F5;
+  --g3: #6e6e6e;
   --g10: #525252;
   --g11: #3D3D3D;
   --g12: #292929;
@@ -356,6 +357,11 @@ label span:nth-child(3) {
 }
 
 /* SECTION ABOUT ME */
+
+#aboutMe {
+  padding-bottom: 3.2rem;
+}
+
 .aboutMe p {
   font-size: 3rem;
   color: var(--g10);
@@ -363,6 +369,7 @@ label span:nth-child(3) {
 }
 
 /* SECTION SKILLS */
+
 .skills h3 {
   font-size: 2rem;
   font-weight: 600;
@@ -379,11 +386,21 @@ label span:nth-child(3) {
 .skillsList p {
   margin: 1rem 0 3.2rem 0;
   font-size: 2rem;
-  color: var(--g10);
+  color: var(--g11);
   text-align: center;
 }
 
 /* SECTION PORTFOLIO */
+
+#portfolio {
+  background: var(--g11);
+  padding-bottom: 3.2rem;
+}
+
+#portfolio h2 {
+  color: var(--white);
+}
+
 .allProjects {
   display: flex;
   align-items: center;
@@ -409,7 +426,7 @@ label span:nth-child(3) {
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-  background: var(--g2); 
+  background: var(--g3); 
 }
 
 .projectInfo h3 {
@@ -421,18 +438,18 @@ label span:nth-child(3) {
 }
 
 .projectInfo p {
-  width: 80%;
+  width: 90%;
   font-size: 1.8rem;
   margin-top: 0.5rem;
   line-height: 2rem;
   font-weight: 400; 
-  color: var(--g10);
+  color: var(--white);
 }
 
 .projectInfo a {
   display: inline-block;
   padding: 1rem 3rem;
-  color: var(--g10);
+  color: var(--white);
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -475,6 +492,7 @@ label span:nth-child(3) {
 }
 
 /* FOOTER */
+
 .footerItems {
   width: 80%;
   display: grid;
