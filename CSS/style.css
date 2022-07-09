@@ -24,6 +24,7 @@
   font-size: 62.5%; 
   --font-title: 'Poppins', sans-serif;
   --font-paragraph: 'Roboto', sans-serif;
+  --font-link: 'Roboto', sans-serif;
 }
 
 * {
@@ -91,6 +92,7 @@ main {
 
 a {
   cursor: pointer;
+  font-family: var(--font-link);
 }
 
 h1,
@@ -395,7 +397,6 @@ label span:nth-child(3) {
 
 #portfolio {
   background: var(--g11);
-  padding-bottom: 3.2rem;
 }
 
 #portfolio h2 {
@@ -417,7 +418,7 @@ label span:nth-child(3) {
   flex-direction: row;
   margin: 0 auto;
   overflow: hidden;
-  margin: 20px auto;
+  margin: 2rem auto;
 }
 
 .projectInfo {
@@ -490,6 +491,22 @@ label span:nth-child(3) {
 
 .projectItem:hover .projectImg img {
   transform: scale(1.1);
+}
+
+.otherProjects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 3.2rem;
+}
+
+.otherProjects a {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  color: var(--white);
+  position: relative;
+  border-bottom: 0.25rem solid var(--o2);
 }
 
 /* FOOTER */
@@ -615,7 +632,7 @@ label span:nth-child(3) {
 
   .menuNav li {
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     border-bottom: 0.2rem solid var(--o2);
@@ -627,7 +644,7 @@ label span:nth-child(3) {
 
   .menuNav a:any-link {
     font-size: 1.6rem;
-    padding-left: 1rem;
+    padding: 0 70% 0 1rem;
     color: white;
   }
 

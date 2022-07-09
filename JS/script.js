@@ -30,10 +30,11 @@ ScrollReveal({
 }).reveal(`.header a, .menuNav`);
 
 ScrollReveal({
-  origin : 'left',
+  origin : 'top',
   delay    : 200,
   distance : '120px',
   easing   : 'ease-in-out',
+  reset    : true,
 }).reveal(`.introTitle, .introText, .introList, .introBtn, .introPic`);
 
 ScrollReveal({
@@ -41,20 +42,23 @@ ScrollReveal({
   delay    : 200,
   distance : '120px',
   easing   : 'ease-in-out',
+  reset    : true,
 }).reveal(`.aboutMe h2, .aboutMe p`);
 
 ScrollReveal({
-  origin : 'left',
+  origin : 'right',
   delay    : 200,
   distance : '120px',
   easing   : 'ease-in-out',
+  reset    : true,
 }).reveal(`.skills h2, .skills h3`);
 
 ScrollReveal({
-  origin : 'left',
+  origin : 'right',
   delay    : 600,
   distance : '120px',
   easing   : 'ease-in-out',
+  reset    : true,
 }).reveal(`.skillsList`);
 
 ScrollReveal({
@@ -63,11 +67,44 @@ ScrollReveal({
   distance : '120px',
   easing   : 'ease-in-out',
   reset   : true,
-}).reveal(`.portfolio h2, .project1, .project2, .project3, .project4`);
+}).reveal(`.portfolio h2, .project1`);
+
+ScrollReveal({
+  origin : 'right',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+  reset   : true,
+}).reveal(`.portfolio h2, .project2`);
 
 ScrollReveal({
   origin : 'left',
   delay    : 200,
   distance : '120px',
   easing   : 'ease-in-out',
+  reset   : true,
+}).reveal(`.portfolio h2, .project3`);
+
+ScrollReveal({
+  origin : 'right',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+  reset   : true,
+}).reveal(`.portfolio h2, .project4`);
+
+ScrollReveal({
+  origin : 'bottom',
+  delay    : 200,
+  distance : '120px',
+  easing   : 'ease-in-out',
+  reset    : true,
+}).reveal(`.otherProjects`);
+
+ScrollReveal({
+  origin : 'bottom',
+  delay    : 100,
+  distance : '120px',
+  easing   : 'ease-in-out',
+  reset    : true,
 }).reveal(`.footer h2, .footerItems`);
