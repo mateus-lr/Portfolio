@@ -15,7 +15,7 @@
 }
 
 #app {
-  margin-bottom:10px;
+  margin-bottom: 10px;
   font-size: 38px;
 }
 
@@ -62,7 +62,7 @@
   color: var(--cor-p1);
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
   .introducao-bg {
     padding-top: 132px;
   }

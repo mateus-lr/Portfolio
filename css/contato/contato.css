@@ -1,6 +1,8 @@
 .contato-container {
+  max-width: 1400px;
   background-color: var(--cor0);
   padding: 65px 100px;
+  margin: 0 auto;
 }
 
 .line {

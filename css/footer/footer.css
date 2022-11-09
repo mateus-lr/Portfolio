@@ -24,11 +24,32 @@ footer {
   font-size: 14px;
 }
 
-.social-media{ 
+.social-media {
   display: flex;
   gap: 18px;
 }
 
 .social-media i {
   font-size: 18px;
+}
+
+.social-media i:hover {
+  color: var(--cor-p1);
+}
+
+@media (max-width: 560px) {
+  .footer {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 10px;
+
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .social-media i {
+    font-size: 14px;
+  }
 }
