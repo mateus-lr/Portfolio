@@ -6,11 +6,11 @@ Criei esse portfolio para divulgar o meu trabalho. Espero que gostem e sugestõe
 
 ## Link do site
 
-[Portfolio - Mateus Lopes]()
+[Portfolio - Mateus Lopes](https://portfolio-mateus-lr.vercel.app/)
 
 ## Screenshot
 
-![App Screenshot](./screenshot/desktop.jpg)
+![App Screenshot](./screenshot/screenshot.png)
 
 ## Autores
 
