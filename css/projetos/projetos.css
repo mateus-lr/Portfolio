@@ -62,3 +62,22 @@
   font-weight: 600;
   letter-spacing: 3.6px;
 }
+
+@media (max-width: 840px) {
+  .projetos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .card-body {
+    bottom: 0;
+    background: #0000007e;
+  }
+}
+
+@media (max-width: 640px) {
+  .projetos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
