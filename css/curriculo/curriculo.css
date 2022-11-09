@@ -1,0 +1,10 @@
+.curriculo-bg {
+  background-color: var(--cor-11);
+  padding: 65px 0;
+}
+
+.curriculo {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+}

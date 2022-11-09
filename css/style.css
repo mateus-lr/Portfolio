@@ -1,0 +1,10 @@
+@import  "./global/global.css";
+@import  "./utilities/color.css";
+@import "./utilities/hamburgers.css";
+@import "./header/header.css";
+@import "./header/header2.css";
+@import "./home/introducao.css";
+@import "./projetos/projetos.css";
+@import "./curriculo/curriculo.css";
+@import "./footer/footer.css";
+@import "./contato/contato.css";

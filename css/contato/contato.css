@@ -1,0 +1,40 @@
+.contato-container {
+  background-color: var(--cor0);
+  padding: 65px 100px;
+}
+
+.line {
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-7);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contato {
+  display: flex;
+  gap: 200px;
+}
+
+.connect h3,
+.contact h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.connect a,
+.contact a {
+  margin-bottom: 5px;
+  font-weight: 600;
+}

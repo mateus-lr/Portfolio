@@ -1,0 +1,64 @@
+.projetos {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 65px 0;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  right: 0;
+  position: absolute;
+  background: #000000c2;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 60px 20px;
+  transition: 1s ease-in-out;
+}
+
+.card:hover .card-body {
+  bottom: 0;
+}
+
+.card-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.card-title::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: var(--cor-p1);
+  margin-top: 10px;
+}
+
+.card-tech {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3.6px;
+}

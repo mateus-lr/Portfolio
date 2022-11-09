@@ -1,0 +1,82 @@
+.introducao-bg {
+  background-color: var(--cor-0);
+  padding-top: 65px;
+  display: flex;
+  text-align: center;
+}
+
+.introducao {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#app {
+  margin-bottom:10px;
+  font-size: 38px;
+}
+
+.introducao h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.introducao-botoes {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.introducao-botoes a {
+  text-align: center;
+  color: var(--cor-1);
+  padding: 14px 0;
+  position: relative;
+}
+
+.introducao-botoes a::after {
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 0px;
+  background-color: var(--cor-p1);
+  margin-top: 2px;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+}
+
+.introducao-botoes a:hover::after {
+  width: 100%;
+}
+
+.introducao-botoes a:link {
+  width: 100%;
+}
+
+.introducao-botoes a:hover {
+  color: var(--cor-p1);
+}
+
+@media (max-width: 860px) {
+  #app {
+    font-size: 2.8rem;
+  }
+
+  .introducao-conteudo h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 440px) {
+  #app {
+    font-size: 2rem;
+  }
+
+  .introducao-conteudo h1 {
+    font-size: 3rem;
+  }
+}
