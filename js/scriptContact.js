@@ -5,7 +5,7 @@ var typewriter = new Typewriter(subtitle, {
   delay: 110
 });
 
-typewriter.typeString("<strong>Avaliable for ...<strong>")
+typewriter.typeString("<strong>Available for ...<strong>")
   .pauseFor(1200)
   .deleteChars(3)
   .typeString("<strong>questions<strong>")
@@ -14,6 +14,6 @@ typewriter.typeString("<strong>Avaliable for ...<strong>")
   .typeString("<strong>jobs<strong>")
   .pauseFor(1200)
   .deleteChars(4)
-  .typeString("<strong>and coffe ☕<strong>")
+  .typeString("<strong>coffe ☕<strong>")
   .pauseFor(2000)
   .start();
