@@ -67,10 +67,6 @@ header {
 }
 
 @media (max-width: 640px) {
-  .header {
-    height: 132px;
-  }
-
   .header a img {
     width: 52px;
   }
@@ -80,11 +76,10 @@ header {
     width: 100%;
     height: 0%;
     position: absolute;
-    top: 8.2rem;
+    top: 65px;
     left: 0;
     background-color: var(--cor-0);
     z-index: 999999;
-    transition: 0.6s;
     overflow-y: hidden;
     visibility: hidden;
   }
@@ -94,7 +89,7 @@ header {
   }
 
   #nav.active .header-menu {
-    height: calc(100vh - 132px);
+    height: calc(100vh - 65px);
     visibility: visible;
     overflow-y: auto;
   }
@@ -106,7 +101,7 @@ header {
   .header-menu li a {
     width: 100%;
     font-weight: 600;
-    font-size: 16px;;
+    font-size: 16px;
     padding: 1.6rem 2rem;
     color: var(--cor-3);
     border-bottom: 1px solid var(--cor-p1);
