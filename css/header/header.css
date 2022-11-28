@@ -46,7 +46,7 @@ header {
   width: 0px;
   background-color: var(--cor-p1);
   margin-top: 2px;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease;
   position: absolute;
 }
 

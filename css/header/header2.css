@@ -61,3 +61,13 @@ header {
 .header-menu2 a:hover {
   color: var(--cor-p1);
 }
+
+@media (max-width: 640px) {
+  .header-menu2 a::after  {
+    display: none;
+  }
+
+  .header-menu2 a:hover {
+    color: var(--cor-1);
+  }
+}
