@@ -1,6 +1,7 @@
 @import  "./global/global.css";
 @import  "./utilities/color.css";
 @import "./utilities/hamburgers.css";
+@import "./utilities/hover-effect.css";
 @import "./header/header.css";
 @import "./header/header2.css";
 @import "./home/introducao.css";

@@ -20,29 +20,28 @@
 }
 
 .introducao h1 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 48px;
 }
 
 .introducao-botoes {
-  min-width: 200px;
+  width: 100%;
   display: flex;
-  gap: 32px;
   align-items: center;
-  margin-bottom: 100px;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 80px;
 }
 
-.introducao-botoes a {
-  text-align: center;
-  color: var(--cor-1);
-  padding: 14px 6px;
-  position: relative;
-  transition: 0.6s;
-}
-
-.introducao-botoes a:hover {
-  color: var(--cor-p1);
-  transform: scale(1.1);
+.botao {
+  min-width: 164px;
+  padding: 16px 32px;
+  background-color: var(--cor-2);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--cor-5);
 }
 
 @media (max-width: 640px) {

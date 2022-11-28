@@ -48,26 +48,26 @@ ScrollReveal({
   origin: 'top',
   delay: 200,
   distance: '80px',
-  easing: 'ease-in-out',
+  easing: 'ease',
 }).reveal(`.header-bg`);
 
 ScrollReveal({
   origin: 'top',
-  delay: 800,
+  delay: 1800,
   distance: '80px',
-  easing: 'ease-in-out',
-}).reveal(`#introducao`);
+  easing: 'ease',
+}).reveal(`.introducao-botoes`);
 
 ScrollReveal({
   origin: 'top',
-  delay: 1000,
+  delay: 2000,
   distance: '80px',
-  easing: 'ease-in-out',
+  easing: 'ease',
 }).reveal(`#projetos`);
 
 ScrollReveal({
   origin: 'bottom',
-  delay: 1200,
+  delay: 2200,
   distance: '80px',
-  easing: 'ease-in-out',
+  easing: 'ease',
 }).reveal(`#footer`);
