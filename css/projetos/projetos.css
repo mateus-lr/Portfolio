@@ -4,6 +4,11 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin: 0 auto;
+  padding-bottom: 65px;
+}
+
+.projetos2 {
+  padding-top: 65px;
 }
 
 .card {
