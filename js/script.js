@@ -33,7 +33,7 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter.typeString("<strong>Hello, <strong>")
-  .pauseFor(1500)
+  .pauseFor(1000)
   .typeString("<strong>I'm Mateus<strong>")
   .pauseFor(5000)
   .start();

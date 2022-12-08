@@ -24,6 +24,14 @@ footer {
   font-size: 14px;
 }
 
+#mail {
+  transition: all 0.4s ease;
+}
+
+#mail:hover {
+  color: var(--cor-p1);
+}
+
 .social-media {
   display: flex;
   gap: 18px;
@@ -31,7 +39,7 @@ footer {
 
 .social-media i {
   font-size: 18px;
-  transition: 0.6s;
+  transition: all 0.4s ease
 }
 
 .social-media i:hover {
