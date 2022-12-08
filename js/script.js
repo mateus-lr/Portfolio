@@ -1,15 +1,18 @@
 const btnMobile = document.getElementById('btnMobile');
+const divSite = document.getElementById('site');
 
 function toggleMenu(event) {
   if (event.type === 'touchstart') event.preventDefault();
   const nav = document.getElementById('nav');
   nav.classList.toggle('active');
+  divSite.classList.toggle('active');
   btnMobile.classList.toggle('is-active');
 }
 
 function closeMenu() {
   const nav = document.getElementById('nav');
   nav.classList.remove('active');
+  divSite.classList.remove('active');
   btnMobile.classList.remove('is-active');
 }
 

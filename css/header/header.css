@@ -101,6 +101,11 @@ header {
     right: 0;
   }
 
+  #site.active {
+    padding-top: 160px;
+    transition: all 0.6s ease;
+  }
+
   .header-menu a::after {
     content: none;
   }
