@@ -69,6 +69,7 @@ header {
 @media (max-width: 640px) {
   .header {
     padding: 10px 20px;
+    background: var(--cor-8);
   }
 
   .header a img {
@@ -82,7 +83,6 @@ header {
     position: absolute;
     top: 65px;
     left: 0;
-    background-color: var(--cor-0);
     z-index: 999999;
     overflow-y: hidden;
     visibility: hidden;
@@ -93,12 +93,13 @@ header {
   }
 
   #nav.active .header-menu {
-    height: calc(33vh - 65px);
+    height: calc(230px  - 65px);
     padding: 0px 20px;
     visibility: visible;
     overflow-y: auto;
-    transition: all 0.6s ease;
+    transition: all 0.6s ease-in-out;
     right: 0;
+    background-color: var(--cor-8);
   }
 
   #site.active {
