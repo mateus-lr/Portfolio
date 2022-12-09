@@ -64,16 +64,21 @@
   }
 
   .introducao h1 {
-    font-size: 32px;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .introducao-botoes {
     margin-bottom: 20px;
   }
 
   .botao {
     color: var(--cor-p2);
+    letter-spacing: 1.6px;
   }
 
   .botao::after {
-    width: 100%;
+    width: 23px;
   }
 }
 

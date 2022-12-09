@@ -50,8 +50,7 @@ footer {
   .footer {
     justify-content: center;
     flex-direction: column-reverse;
-    gap: 10px;
-
+    gap: 10px;  
   }
 
   .name {
@@ -59,6 +58,7 @@ footer {
   }
 
   .social-media i {
-    font-size: 14px;
+    font-size: 16px;
+    color: var(--cor-8);
   }
 }

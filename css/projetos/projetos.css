@@ -76,7 +76,7 @@
 
   .card-body {
     bottom: 0;
-    background: #0000007e;
+    background: #0000008c;
   }
 }
 
@@ -84,5 +84,10 @@
   .projetos {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
+  }
+
+  .projetos {
+    gap: 2px;
+    background-color: var(--cor-p1);
   }
 }
