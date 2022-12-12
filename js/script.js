@@ -32,7 +32,7 @@ var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
   loop: true,
-  delay: 110
+  delay: 100
 });
 
 typewriter.typeString("<strong>Hello, <strong>")
@@ -49,28 +49,14 @@ window.sr = ScrollReveal({
 
 ScrollReveal({
   origin: 'top',
-  delay: 200,
+  delay: 100,
   distance: '80px',
   easing: 'ease',
 }).reveal(`.header-bg`);
 
 ScrollReveal({
-  origin: 'top',
-  delay: 1800,
-  distance: '80px',
-  easing: 'ease',
-}).reveal(`.introducao-botoes`);
-
-ScrollReveal({
-  origin: 'top',
-  delay: 2000,
-  distance: '80px',
-  easing: 'ease',
-}).reveal(`#projetos`);
-
-ScrollReveal({
   origin: 'bottom',
-  delay: 2200,
+  delay: 100,
   distance: '80px',
   easing: 'ease',
 }).reveal(`#footer`);

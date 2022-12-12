@@ -21,7 +21,7 @@
 }
 
 .introducao h1 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 48px;
 }
 
@@ -31,7 +31,7 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .botao {

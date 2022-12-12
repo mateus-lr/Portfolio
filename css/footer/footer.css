@@ -8,7 +8,7 @@ footer {
 
 .footer {
   max-width: 1400px;
-  height: 65px;
+  min-height: 65px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,7 +25,7 @@ footer {
 }
 
 #mail {
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
 }
 
 #mail:hover {
@@ -37,16 +37,18 @@ footer {
   gap: 18px;
 }
 
-.social-media i {
-  font-size: 18px;
-  transition: all 0.4s ease
+.social-media li a {
+  display: block;
+  transition: .3s ease;
+  font-size: 22px;
 }
 
-.social-media i:hover {
+.social-media li a:hover  {
   color: var(--cor-p1);
+  text-shadow: 0 0 5px var(--cor-p1);
 }
 
-@media (max-width: 560px) {
+@media (max-width: 640px) {
   .footer {
     justify-content: center;
     flex-direction: column-reverse;
