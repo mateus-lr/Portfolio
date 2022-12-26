@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 
   <!-- Google Fonts -->
@@ -16,99 +15,115 @@
 
   <!-- Font Awsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Projects - Mateus Lopes</title>
 </head>
 
 <body>
-  <header class="header-bg">
-    <div class="header2">
+  <header class="header-bg" data-aos="fade-down">
+    <div class="header" id="header">
       <a href="./"><img src="./img/logo.svg" width="32" alt="Mateus Rocha"></a>
 
       <nav aria-label="primaria" id="nav">
+
+        <!-- MENU MOBILE -->
+        <button class="hamburger hamburger--squeeze" type="button" id="btnMobile">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
         <!-- MENU DESKTOP -->
-        <ul class="header-menu2 cor-1">
-          <li><a onclick="closeMenu()" href="./">return</a></li>
+        <ul class="header-menu cor-1">
+          <li><a onclick="closeMenu()" href="./projetos.html">Projects</a></li>
+          <li><a onclick="closeMenu()" href="./curriculo.html">About</a></li>
+          <li><a onclick="closeMenu()" href="./contato.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="projetos-bg projetos2" id="projetos">
-    <div class="projetos">
-      <div class="card">
-        <a href="https://rocket-pay-kappa.vercel.app/" target="_blank">
-          <img src="./img/projetos/projeto1.jpg" alt="">
-          <div class="card-body">
-            <h2 class="card-title cor-0">RocketPay</h2>
-            <p class="card-tech cor-2">html / css / JS / Vite</p>
-          </div>
-        </a>
+  <div id="site">
+    <section class="projetos-bg projetos2" id="projetos">
+      <div class="projetos">
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <a href="https://rocket-pay-kappa.vercel.app/" target="_blank">
+            <img src="./img/projetos/projeto1.jpg" alt="">
+            <div class="card-body">
+              <h2 class="card-title cor-0">RocketPay</h2>
+              <p class="card-tech cor-2">html / css / JS / Vite</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+          <a href="https://god-mu.vercel.app/" target="_blank">
+            <img src="./img/projetos/projeto8.png" alt="">
+            <div class="card-body">
+              <h2 class="card-title cor-0">God of War - Ragnarök</h2>
+              <p class="card-tech cor-2">html / Sass / JS</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="900">
+          <a href="https://mateus-lr.github.io/Bikcraft/" target="_blank">
+            <img src="./img/projetos/projeto3.jpg" alt="">
+            <div class="card-body">
+              <h2 class="card-title cor-0">Bikcraft Store</h2>
+              <p class="card-tech cor-2">html / css / JS / UI </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <a href="https://mateus-lr.github.io/Clipboard-landing-page-master/" target="_blank">
+            <img src="./img/projetos/projeto2.jpg" alt="">
+            <div class="card-body">
+              <h2 class="card-title cor-0">Clipboard</h2>
+              <p class="card-tech cor-2">html / css </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+          <img src="./img/projetos/projeto4.jpg" alt="">
+          <a href="https://mateus-lr.github.io/Bikcraft1/" target="_blank">
+            <div class="card-body">
+              <h2 class="card-title cor-0">Bikcraft - Single Page</h2>
+              <p class="card-tech cor-2">html / css / UI</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="900">
+          <a href="https://mateus-lr.github.io/NFT-preview-card-component/" target="_blank">
+            <img src="./img/projetos/projeto6.jpg" alt="">
+            <div class="card-body">
+              <h2 class="card-title cor-0">NFT Card</h2>
+              <p class="card-tech cor-2">html / css </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <a href="https://mateus-lr.github.io/Order-summary-card-challenge/" target="_blank">
+            <img src="./img/projetos/projeto5.jpg" alt="">
+            <div class="card-body">
+              <h2 class="card-title cor-0">Order Summary</h2>
+              <p class="card-tech cor-1">html / css </p>
+            </div>
+          </a>
+        </div>
+
       </div>
+    </section>
+  </div>
 
-      <div class="card">
-        <a href="https://god-mu.vercel.app/" target="_blank">
-          <img src="./img/projetos/projeto8.png" alt="">
-          <div class="card-body">
-            <h2 class="card-title cor-0">God of War - Ragnarök</h2>
-            <p class="card-tech cor-2">html / Sass / JS</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a href="https://mateus-lr.github.io/Bikcraft/" target="_blank">
-          <img src="./img/projetos/projeto3.jpg" alt="">
-          <div class="card-body">
-            <h2 class="card-title cor-0">Bikcraft Store</h2>
-            <p class="card-tech cor-2">html / css / JS / UI </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a href="https://mateus-lr.github.io/Clipboard-landing-page-master/" target="_blank">
-          <img src="./img/projetos/projeto2.jpg" alt="">
-          <div class="card-body">
-            <h2 class="card-title cor-0">Clipboard</h2>
-            <p class="card-tech cor-2">html / css </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <img src="./img/projetos/projeto4.jpg" alt="">
-        <a href="https://mateus-lr.github.io/Bikcraft1/" target="_blank">
-          <div class="card-body">
-            <h2 class="card-title cor-0">Bikcraft - Single Page</h2>
-            <p class="card-tech cor-2">html / css / UI</p>
-          </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a href="https://mateus-lr.github.io/NFT-preview-card-component/" target="_blank">
-          <img src="./img/projetos/projeto6.jpg" alt="">
-          <div class="card-body">
-            <h2 class="card-title cor-0">NFT Card</h2>
-            <p class="card-tech cor-2">html / css </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a href="https://mateus-lr.github.io/Order-summary-card-challenge/" target="_blank">
-          <img src="./img/projetos/projeto5.jpg" alt="">
-          <div class="card-body">
-            <h2 class="card-title cor-0">Order Summary</h2>
-            <p class="card-tech cor-1">html / css </p>
-          </div>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <footer id="footer">
+  <footer id="footer" data-aos="fade-up">
     <div class="footer">
       <p class="name cor-1">&copy Mateus Lopes 2022 | <a id="mail" href="mailto:mateus_lr@outlook.com">mateus_lr@outlook.com</a></p>
       <ul class="social-media">
@@ -131,6 +146,8 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/scriptProjects.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

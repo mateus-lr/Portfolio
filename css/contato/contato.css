@@ -1,6 +1,6 @@
 .contato-container {
   max-width: 1400px;
-  background-color: var(--cor0);
+  background-color: var(--cor-0);
   padding: 65px 100px;
   margin: 0 auto;
 }
@@ -29,6 +29,7 @@
   font-size: 24px;
   margin-bottom: 30px;
   line-height: 2;
+  color: var(--cor-8);
 }
 
 .contato {
@@ -42,6 +43,7 @@
   font-weight: 800;
   margin-bottom: 30px;
   position: relative;
+  color: var(--cor-8);
 }
 
 .connect h3::after,
@@ -79,7 +81,9 @@
   }
 
   .title {
+    width: 250px;
     font-size: 58px;
+    gap: 20px;
   }
 
   .subtitle {

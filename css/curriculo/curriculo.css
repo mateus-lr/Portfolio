@@ -1,10 +1,27 @@
 .curriculo-bg {
   background-color: var(--cor-11);
-  padding: 65px 0;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  height: 100vh;
 }
 
 .curriculo {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.curriculo img {
+  pointer-events: none !important;
+}
+
+@media (max-width: 768px) {
+  .curriculo-bg {
+    padding-bottom: 0;
+  }
+  .curriculo {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

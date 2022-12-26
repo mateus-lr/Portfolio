@@ -17,3 +17,11 @@ typewriter.typeString("<strong>Available for ...<strong>")
   .typeString("<strong>coffe ☕<strong>")
   .pauseFor(2000)
   .start();
+
+  // AOS Animation
+  AOS.init(
+    {
+      duration: 1200,
+      once: true,
+    }
+  );

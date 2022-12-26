@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 
   <!-- Google Fonts -->
@@ -16,30 +15,47 @@
 
   <!-- Font Awsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
   <title>About - Mateus Lopes</title>
 </head>
 
 <body>
-  <header class="header-bg">
-    <div class="header2">
+  <header class="header-bg" data-aos="fade-down">
+    <div class="header" id="header">
       <a href="./"><img src="./img/logo.svg" width="32" alt="Mateus Rocha"></a>
 
       <nav aria-label="primaria" id="nav">
+
+        <!-- MENU MOBILE -->
+        <button class="hamburger hamburger--squeeze" type="button" id="btnMobile">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
         <!-- MENU DESKTOP -->
-        <ul class="header-menu2 cor-1">
-          <li><a onclick="closeMenu()" href="./">return</a></li>
+        <ul class="header-menu cor-1">
+          <li><a onclick="closeMenu()" href="./projetos.html">Projects</a></li>
+          <li><a onclick="closeMenu()" href="./curriculo.html">About</a></li>
+          <li><a onclick="closeMenu()" href="./contato.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="curriculo-bg">
-    <div class="curriculo">
-      <img src="./img/curriculo/CV.jpg" alt="curriculo Mateus Lopes da Rocha">
-    </div>
-  </main>
+  <div id="site">
+    <main class="curriculo-bg" data-aos="zoom-out">
+      <div class="curriculo">
+        <img src="./img/curriculo/CV.jpg" alt="curriculo Mateus Lopes da Rocha">
+      </div>
+    </main>
+  </div>
 
-  <footer id="footer">
+  <footer id="footer" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
     <div class="footer">
       <p class="name cor-1">&copy Mateus Lopes 2022 | <a id="mail" href="mailto:mateus_lr@outlook.com">mateus_lr@outlook.com</a></p>
       <ul class="social-media">
@@ -62,6 +78,8 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/scriptAbout.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

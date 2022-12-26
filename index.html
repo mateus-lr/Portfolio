@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 
   <!-- Google Fonts -->
@@ -16,11 +15,15 @@
 
   <!-- Font Awsome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Mateus Lopes</title>
 </head>
 
 <body>
-  <header class="header-bg">
+  <header class="header-bg" data-aos="fade-down">
     <div class="header" id="header">
       <a href="./"><img src="./img/logo.svg" width="32" alt="Mateus Rocha"></a>
 
@@ -44,22 +47,22 @@
   </header>
 
   <div id="site">
-    <main class="introducao-bg animation1" id="introducao">
+    <main class="introducao-bg" id="introducao">
       <div class="introducao">
-        <div class="cor-6" id="app"></div>
-        <h1 class="cor-1">Frontend developer <br> & UI Designer</h1>
+        <div class="cor-8" id="app" data-aos="fade-down" data-aos-delay="200"></div>
+        <h1 class="cor-1" data-aos="fade-down" data-aos-delay="400">Frontend developer <br> & UI Designer</h1>
 
-        <div class="introducao-botoes">
+        <div class="introducao-botoes" data-aos="fade-down" data-aos-delay="600">
           <a class="botao" href="./curriculo.html">Resume</a>
           <a class="botao" href="mailto:mateus_lr@outlook.com">Let's talk</a>
         </div>
       </div>
     </main>
 
-    <section class="projetos-bg animation1" id="projetos">
+    <section class="projetos-bg" id="projetos">
       <div class="projetos">
 
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
           <a href="https://rocket-pay-kappa.vercel.app/" target="_blank">
             <img src="./img/projetos/projeto1.jpg" alt="">
             <div class="card-body">
@@ -69,7 +72,7 @@
           </a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="600">
           <a href="https://god-mu.vercel.app/" target="_blank">
             <img src="./img/projetos/projeto8.png" alt="">
             <div class="card-body">
@@ -79,7 +82,7 @@
           </a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="900">
           <a href="https://mateus-lr.github.io/Bikcraft/" target="_blank">
             <img src="./img/projetos/projeto3.jpg" alt="">
             <div class="card-body">
@@ -89,7 +92,7 @@
           </a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
           <a href="https://mateus-lr.github.io/Clipboard-landing-page-master/" target="_blank">
             <img src="./img/projetos/projeto2.jpg" alt="">
             <div class="card-body">
@@ -99,7 +102,7 @@
           </a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="600">
           <img src="./img/projetos/projeto4.jpg" alt="">
           <a href="https://mateus-lr.github.io/Bikcraft1/" target="_blank">
             <div class="card-body">
@@ -109,7 +112,7 @@
           </a>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="zoom-in" data-aos-delay="900">
           <a href="https://mateus-lr.github.io/NFT-preview-card-component/" target="_blank">
             <img src="./img/projetos/projeto6.jpg" alt="">
             <div class="card-body">
@@ -124,8 +127,8 @@
 
   </div>
 
-  <footer id="footer">
-    <div class="footer">
+  <footer id="footer" data-aos="fade-up" data-aos-offset="0">
+    <div class=" footer">
       <p class="name cor-1">&copy Mateus Lopes 2022 | <a id="mail" href="mailto:mateus_lr@outlook.com">mateus_lr@outlook.com</a></p>
       <ul class="social-media">
         <li>
@@ -147,7 +150,7 @@
     </div>
   </footer>
 
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="./js/script.js"></script>
 </body>

@@ -41,22 +41,11 @@ typewriter.typeString("<strong>Hello, <strong>")
   .pauseFor(5000)
   .start();
 
-// SCROLLREVEAL EFFECT
+// AOS ANIMATION
 
-window.sr = ScrollReveal({
-  reset: false,
-})
-
-ScrollReveal({
-  origin: 'top',
-  delay: 100,
-  distance: '80px',
-  easing: 'ease',
-}).reveal(`.header-bg`);
-
-ScrollReveal({
-  origin: 'bottom',
-  delay: 100,
-  distance: '80px',
-  easing: 'ease',
-}).reveal(`#footer`);
+AOS.init(
+  {
+    duration: 1200,
+    once: true,
+  }
+);
