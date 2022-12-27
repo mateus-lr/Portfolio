@@ -16,6 +16,14 @@ function closeMenu() {
   btnMobile.classList.remove('is-active');
 }
 
+function closeMenuMobile(event) {
+  if(!event.target.closest('#nav')) {
+    closeMenu();
+  }
+}
+
+document.addEventListener('click', closeMenuMobile);
+
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
