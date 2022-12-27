@@ -10,7 +10,7 @@ Criei esse portfolio para divulgar o meu trabalho. Espero que gostem e sugestõe
 
 ## Screenshot
 
-![App Screenshot](./screenshot/screenshot.png)
+![App Screenshot](./screenshot/screenshot.webp)
 
 ## Autores
 

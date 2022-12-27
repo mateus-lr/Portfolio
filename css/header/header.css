@@ -68,12 +68,9 @@ header {
 
 @media (max-width: 640px) {
   .header {
-    padding: 10px 20px;
+    padding: 10px 0 10px 20px;
     background: var(--cor-8);
-  }
-
-  .header a img {
-    width: 52px;
+    align-items: center;
   }
 
   .header-menu {
