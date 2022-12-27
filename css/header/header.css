@@ -86,6 +86,7 @@ header {
     z-index: 999999;
     overflow-y: hidden;
     visibility: hidden;
+    transition: all 0.5s ease-in-out;
   }
 
   .hamburger {
@@ -93,18 +94,19 @@ header {
   }
 
   #nav.active .header-menu {
-    height: calc(230px  - 65px);
+    height: calc(230px - 65px);
     padding: 0px 20px;
     visibility: visible;
     overflow-y: auto;
-    transition: all 0.6s ease-in-out;
     right: 0;
     background-color: var(--cor-8);
   }
 
   #site.active {
     padding-top: 160px;
-    transition: all 0.6s ease;
+    transition: padding-top 0.5s ease, filter 0.7s ease-in-out;
+    filter: blur(5px);
+    -webkit-filter: blur(2px);
   }
 
   .header-menu a::after {

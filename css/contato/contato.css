@@ -72,7 +72,9 @@
 
 @media (max-width: 420px) {
   .contato-container {
-    padding: 65px 20px;
+    padding: 85px 10px;
+    height: 100vh;
+    overflow-y: hidden;     
   }
 
   .contato {

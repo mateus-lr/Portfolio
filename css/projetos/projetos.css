@@ -75,6 +75,7 @@
   .projetos {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    padding-top: 20px;
   }
 
   .card-body {
@@ -91,7 +92,8 @@
 
   .projetos {
     gap: 8px;
-    padding: 0 10px 80px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .card {

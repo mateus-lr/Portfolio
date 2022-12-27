@@ -25,3 +25,10 @@
     padding-right: 16px;
   }
 }
+
+@media (max-width: 420px) {
+  .curriculo-bg {
+  height: 100vh;
+  overflow-y: hidden;
+  }
+}
