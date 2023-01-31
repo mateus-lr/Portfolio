@@ -24,11 +24,12 @@ header {
 .header-menu {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 2rem;
   margin-bottom: 0;
 }
 
-.header-menu a {
+.header-menu a:not(.contact-btn) {
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -39,7 +40,7 @@ header {
   color: var(--cor-1);
 }
 
-.header-menu a::after {
+.header-menu a:not(.contact-btn)::after {
   content: "";
   display: block;
   height: 1.5px;
@@ -50,16 +51,28 @@ header {
   position: absolute;
 }
 
-.header-menu a:hover::after {
+.header-menu a:not(.contact-btn):hover::after {
   width: 100%;
 }
 
-.header-menu a:link {
+.header-menu a:not(.contact-btn) {
   width: 100%;
 }
 
-.header-menu a:hover {
+.header-menu a:hover:not(.contact-btn) {
   color: var(--cor-p1);
+}
+
+.contact-btn {
+  background: var(--cor-p1);
+  color: var(--cor-0);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  padding: 14px 20px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .hamburger {
@@ -89,7 +102,7 @@ header {
   .hamburger {
     display: block;
   }
-
+  
   #nav.active .header-menu {
     height: calc(230px - 65px);
     padding: 0px 20px;
@@ -116,5 +129,12 @@ header {
     font-size: 14px;
     color: var(--cor-3);
     border-bottom: 1px solid var(--cor-p1);
+  }
+
+  .header-menu li .contact-btn {
+    background: none;
+    color: var(--cor-1);
+    padding: 14px 0;
+    border-radius: 0;
   }
 }

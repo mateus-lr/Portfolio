@@ -5,7 +5,7 @@
   grid-template-rows: repeat(2, 1fr);
   margin: 0 auto;
   gap: 10px;
-  padding: 0 20px 80px 20px;
+  padding: 0 20px 10px 20px;
 }
 
 .projetos2 {
@@ -34,8 +34,8 @@
   bottom: -100%;
   right: 0;
   position: absolute;
-  background: #000000c2;
-  backdrop-filter: blur(5px);
+  background: #27273980;
+  backdrop-filter: blur(6px);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -71,6 +71,26 @@
   letter-spacing: 3.6px;
 }
 
+.button-projects {
+  padding: 20px 20px 85px 20px;
+  text-align: center;
+}
+
+.button {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  padding: 14px 0;
+  padding: 15px;
+  color: var(--cor-1);
+  transition: 0.5s ease;
+}
+
+.button:hover {
+  color: var(--cor-p1);
+}
+
 @media (max-width: 840px) {
   .projetos {
     grid-template-columns: repeat(2, 1fr);
@@ -80,7 +100,7 @@
 
   .card-body {
     bottom: 0;
-    background: #00000038;
+    background: #27273980;
   }
 }
 
