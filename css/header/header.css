@@ -51,10 +51,6 @@ header {
   position: absolute;
 }
 
-.header-menu a:not(.contact-btn):hover::after {
-  width: 100%;
-}
-
 .header-menu a:not(.contact-btn) {
   width: 100%;
 }
@@ -77,6 +73,12 @@ header {
 
 .hamburger {
   display: none;
+}
+
+@media (min-width: 900px) {
+  .header-menu a:not(.contact-btn):hover::after {
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {

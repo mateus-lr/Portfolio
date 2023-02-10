@@ -55,8 +55,16 @@
   position: absolute;
 }
 
-.botao:hover::after {
-  width: 100%;
+@media (min-width: 980px) {
+  .botao:hover::after {
+    width: 100%;
+  }
+}
+
+@media (max-width: 840px) {
+  .botao::after {
+    width: 23px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -76,10 +84,6 @@
   .botao {
     color: var(--cor-8);
     letter-spacing: 1.6px;
-  }
-
-  .botao::after {
-    width: 23px;
   }
 }
 
