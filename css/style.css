@@ -1,9 +1,9 @@
-@import  "./global/global.css";
+@import  "./global.css";
 @import  "./utilities/color.css";
 @import "./utilities/menu-hamburger.css";
-@import "./header/header.css";
-@import "./home/introducao.css";
-@import "./projetos/projetos.css";
-@import "./curriculo/curriculo.css";
-@import "./footer/footer.css";
-@import "./contato/contato.css";
+@import "./header.css";
+@import "./intro.css";
+@import "./projects.css";
+@import "./resume.css";
+@import "./footer.css";
+@import "./contact.css";

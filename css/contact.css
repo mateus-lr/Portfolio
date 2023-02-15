@@ -1,0 +1,103 @@
+#contact {
+  max-width: 1400px;
+  background-color: var(--cor-0);
+  padding: 65px 100px;
+  margin: 0 auto;
+}
+
+.line {
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-7);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 68px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title strong {
+  padding-bottom: 20px;
+}
+
+#subtitle {
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 2;
+  color: var(--cor-8);
+}
+
+.contact {
+  display: flex;
+  gap: 200px;
+}
+
+.connect-items h3,
+.contact-items h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  position: relative;
+  color: var(--cor-8);
+}
+
+.connect-items h3::after,
+.contact-items h3::after {
+  content: "";
+  display: block;
+  bottom: -5px;
+  width: 30px;
+  height: 4px;
+  background-color: var(--cor-p1);
+  position: absolute;
+}
+
+.connect-items a,
+.contact-items a {
+  margin-bottom: 5px;
+  font-weight: 600;
+
+}
+
+.connect-items a:hover,
+.contact-items a:hover {
+  color: var(--cor-p1);
+  transition: color .3s ease-in-out;
+}
+
+
+@media (max-width: 420px) {
+  #contact {
+    padding: 85px 10px;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: 58px;
+    margin-bottom: 0px;
+  }
+
+  .title strong {
+    display: none;
+  }
+
+  #subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .line {
+    margin-bottom: 5px;
+  }
+}

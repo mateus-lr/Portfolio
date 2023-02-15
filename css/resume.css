@@ -1,0 +1,28 @@
+.resume {
+  padding: 65px 0px;
+  margin: 0 auto;
+}
+
+.resume img {
+  width: 100%;
+  padding: 0 30px;
+  pointer-events: none !important;
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .resume {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .resume img {
+    padding: 0 10px;
+  }
+}
