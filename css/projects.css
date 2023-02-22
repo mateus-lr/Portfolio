@@ -107,7 +107,7 @@
   content: "";
   display: block;
   height: 2px;
-  width: 0px;
+  width: 32px;
   background-color: var(--cor-p1);
   margin-top: 2px;
   transition: 0.3s ease;

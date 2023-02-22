@@ -46,7 +46,7 @@ footer {
 
 .social-media li a:hover  {
   color: var(--cor-p1);
-  text-shadow: 0 0 5px var(--cor-p1);
+  /* text-shadow: 0 0 5px var(--cor-p1); */
 }
 
 @media (max-width: 640px) {
