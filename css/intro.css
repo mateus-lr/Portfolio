@@ -17,13 +17,13 @@
 #app {
   padding-top: 20px;
   margin-bottom: 10px;
-  font-size: 38px;
+  font-size: 42px;
   color: var(--cor-8);
 }
 
 .intro h1 {
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: 120px;
 }
 
 .intro-btn {
@@ -40,7 +40,7 @@
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: var(--cor-8);
+  color: var(--cor-1);
   position: relative;
 }
 
@@ -62,18 +62,18 @@
 }
 
 @media (max-width: 840px) {
+  .intro h1 {
+    font-size: 90px;
+  }
+
   .btn::after {
     width: 23px;
   }
 }
 
 @media (max-width: 640px) {
-  #intro {
-    padding-top: 65px;
-  }
-
   .intro h1 {
-    font-size: 28px;
+    font-size: 60px;
     margin-bottom: 10px;
   }
 
@@ -88,6 +88,10 @@
 }
 
 @media (max-width: 420px) {
+  .intro h1 {
+    font-size: 40px;
+  }
+
   #app {
     font-size: 24px;
   }
