@@ -70,7 +70,7 @@
   display: block;
   width: 30px;
   height: 4px;
-  background: var(--cor-p1);
+  background: linear-gradient(90deg, var(--cor-p1) 0%, var(--cor-p2) 100%);
   margin-top: 10px;
 }
 
@@ -107,17 +107,15 @@
   content: "";
   display: block;
   height: 2px;
-  width: 32px;
+  width: 0px;
   background-color: var(--cor-p1);
   margin-top: 2px;
   transition: 0.3s ease;
   position: absolute;
 }
 
-@media (min-width: 900px) {
-  .button:hover::after {
-    width: 100%;
-  }
+.button:hover::after {
+  width: 100%;
 }
 
 @media (max-width: 840px) {
@@ -133,7 +131,7 @@
   }
 
   .button::after {
-    width: 25%; 
+    width: 100%; 
   }
 }
 

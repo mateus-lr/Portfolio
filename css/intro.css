@@ -48,17 +48,15 @@
   content: "";
   display: block;
   height: 1.5px;
-  width: 25px;
+  width: 0px;
   background-color: var(--cor-p1);
   margin-top: 2px;
   transition: 0.3s ease;
   position: absolute;
 }
 
-@media (min-width: 980px) {
-  .btn:hover::after {
-    width: 100%;
-  }
+.btn:hover::after {
+  width: 100%;
 }
 
 @media (max-width: 840px) {
@@ -67,7 +65,7 @@
   }
 
   .btn::after {
-    width: 23px;
+    width: 100%;
   }
 }
 
@@ -82,7 +80,6 @@
   }
 
   .btn {
-    color: var(--cor-8);
     letter-spacing: 1.6px;
   }
 }
