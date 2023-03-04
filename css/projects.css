@@ -4,6 +4,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin: 0 auto;
+  margin-top: 10px;
   gap: 10px;
   padding: 0 20px 10px 20px;
 }
@@ -142,6 +143,10 @@
     gap: 8px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .project2 {
+    padding-bottom: 80px;
   }
 
   .card {

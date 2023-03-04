@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#23272A">
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Frontend developer & UI Designer">
+  <meta name="description" content="Sou estudante de Desenvolvimento Web e apaixonado por tecnologia. Atualmente também estou aprendendo Web Design, UX/UI Design, HTML, CSS, JavaScript, TypeScript e React com a Origamid.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://portfolio-mateus-lr.vercel.app/">
+  <meta property="og:title" content="Frontend developer & UI Designer">
+  <meta property="og:description" content="Sou estudante de Desenvolvimento Web e apaixonado por tecnologia. Atualmente também estou aprendendo Web Design, UX/UI Design, HTML, CSS, JavaScript, TypeScript e React com a Origamid.">
+  <meta property="og:image" content="https://i.ibb.co/Q9V0Kjs/Mateus-Lopes.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://portfolio-mateus-lr.vercel.app/">
+  <meta property="twitter:title" content="Frontend developer & UI Designer">
+  <meta property="twitter:description" content="Sou estudante de Desenvolvimento Web e apaixonado por tecnologia. Atualmente também estou aprendendo Web Design, UX/UI Design, HTML, CSS, JavaScript, TypeScript e React com a Origamid.">
+  <meta property="twitter:image" content="https://i.ibb.co/Q9V0Kjs/Mateus-Lopes.jpg">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,14 +37,16 @@
 
   <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.min.css">
-  <title>Projects - Mateus Lopes</title>
+
+  <link rel="stylesheet" href="../css/style.min.css">
+  <title>Mateus Lopes</title>
+
 </head>
 
 <body>
   <header class="header-bg" data-aos="fade-down">
     <div class="header" id="header">
-      <a href="./"><img src="./img/logo.svg" width="32" height="32" alt="Mateus Rocha"></a>
+      <a href="./"><img src="../img/logo.svg" width="32" height="32" alt="Mateus Rocha"></a>
 
       <nav aria-label="primaria" id="nav">
 
@@ -38,21 +59,33 @@
 
         <!-- MENU DESKTOP -->
         <ul class="header-menu cor-1">
-          <li><a onclick="closeMenu()" href="./">Home</a></li>
+          <li><a onclick="closeMenu()" href="./projects.html">Projects</a></li>
           <li><a onclick="closeMenu()" href="./resume.html">Resume</a></li>
-          <li><a onclick="closeMenu()" href="./contact.html">Contact</a></li>
+          <li><a class="contact-btn" onclick="closeMenu()" href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <div id="site">
-    <section class="projetos-bg project2" id="project">
+    <main id="intro">
+      <div class="intro">
+        <div class="cor-8" id="app" data-aos="fade-down" data-aos-delay="200"></div>
+        <h1 class="cor-9" data-aos="fade-down" data-aos-delay="400" id="job-position"><strong class="cor-p1">Frontend</strong> developer <br> & <strong class="cor-p1">UI</strong> Designer</h1>
+
+        <div class="intro-btn" data-aos="fade-down" data-aos-delay="400">
+          <a class="btn" href="./resume.html">Resume</a>
+          <a class="btn" href="mailto:mateus_lr@outlook.com">Let's talk</a>
+        </div>
+      </div>
+    </main>
+
+    <section id="project">
       <div class="project" data-aos="zoom-in" data-aos-delay="600">
 
         <div class="card">
           <a href="https://rocket-pay-kappa.vercel.app/" target="_blank">
-            <img src="./img/project/project1.webp" alt="">
+            <img src="../img/project/project1.webp" alt="">
             <div class="card-body">
               <h2 class="card-title cor-0">RocketPay</h2>
               <p class="card-tech cor-2">html / css / JS / Vite</p>
@@ -62,7 +95,7 @@
 
         <div class="card">
           <a href="https://god-mu.vercel.app/" target="_blank">
-            <img src="./img/project/project8.webp" alt="">
+            <img src="../img/project/project8.webp" alt="">
             <div class="card-body">
               <h2 class="card-title cor-0">God of War - Ragnarök</h2>
               <p class="card-tech cor-2">html / Sass / JS</p>
@@ -72,7 +105,7 @@
 
         <div class="card">
           <a href="https://mateus-lr.github.io/Bikcraft/" target="_blank">
-            <img src="./img/project/project3.webp" alt="">
+            <img src="../img/project/project3.webp" alt="">
             <div class="card-body">
               <h2 class="card-title cor-0">Bikcraft Store</h2>
               <p class="card-tech cor-2">html / css / JS / UI </p>
@@ -82,7 +115,7 @@
 
         <div class="card">
           <a href="https://mateus-lr.github.io/Clipboard-landing-page-master/" target="_blank">
-            <img src="./img/project/project2.webp" alt="">
+            <img src="../img/project/project2.webp" alt="">
             <div class="card-body">
               <h2 class="card-title cor-0">Clipboard</h2>
               <p class="card-tech cor-2">html / css </p>
@@ -92,7 +125,7 @@
 
         <div class="card">
           <a href="https://mateus-lr.github.io/Bikcraft1/" target="_blank">
-            <img src="./img/project/project4.webp" alt="">
+            <img src="../img/project/project4.webp" alt="">
             <div class="card-body">
               <h2 class="card-title cor-0">Bikcraft - Single Page</h2>
               <p class="card-tech cor-2">html / css / UI</p>
@@ -102,31 +135,29 @@
 
         <div class="card">
           <a href="https://mateus-lr.github.io/NFT-preview-card-component/" target="_blank">
-            <img src="./img/project/project6.webp" alt="">
+            <img src="../img/project/project6.webp" alt="">
             <div class="card-body">
               <h2 class="card-title cor-0">NFT Card</h2>
               <p class="card-tech cor-2">html / css </p>
             </div>
           </a>
         </div>
+      </div>
 
-        <div class="card">
-          <a href="https://mateus-lr.github.io/Order-summary-card-challenge/" target="_blank">
-            <img src="./img/project/project5.webp" alt="">
-            <div class="card-body">
-              <h2 class="card-title cor-0">Order Summary</h2>
-              <p class="card-tech cor-1">html / css </p>
-            </div>
-          </a>
-        </div>
-
+      <div class="button-projects">
+        <a class="button" href="../projects.html">see all projects <i class="fa-solid fa-angle-right"></i></a>
       </div>
     </section>
   </div>
 
-  <footer id="footer" data-aos="fade-up">
-    <div class="footer">
+  <footer id="footer" data-aos="fade-up" data-aos-offset="0">
+    <div class=" footer">
       <p class="name cor-4">&copy Mateus Lopes 2023 | <a id="mail" href="mailto:mateus_lr@outlook.com">mateus_lr@outlook.com</a></p>
+
+      <div class="language">
+        <a href="../index.html"><i class="fa-solid fa-language"></i> Portuguese</a>
+      </div>
+
       <ul class="social-media">
         <li>
           <a href="https://wa.me/5519983010712" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
@@ -148,8 +179,8 @@
   </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="./js/scriptProjects.js"></script>
-  <script src="./js/script.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="./js-en/script.js"></script>
 </body>
 
 </html>
