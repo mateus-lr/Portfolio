@@ -10,13 +10,12 @@ footer {
 .footer {
   max-width: 1400px;
   min-height: 65px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 30px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
 }
 
 .name {
@@ -25,62 +24,30 @@ footer {
   font-size: 14px;
 }
 
-#mail {
-  transition: all 0.3s ease;
-}
-
-#mail:hover {
-  color: var(--cor-p1);
-}
-
-.social-media {
-  display: flex;
-  gap: 18px;
-}
-
 .language a {
   color: var(--cor-8);
   transition: .3s ease;
+  display: flex;
+  place-items: center;
+  gap: 5px;
 }
 
-.social-media li a {
-  display: block;
-  transition: .3s ease;
+.language i {
   font-size: 22px;
 }
 
-.language a:hover,
-.social-media li a:hover {
+.language a:hover {
   color: var(--cor-p1);
   /* text-shadow: 0 0 5px var(--cor-p1); */
 }
 
-@media (max-width: 640px) {
+@media (max-width: 436px) {
   .footer {
-    display: grid;
-    grid-template-areas:
-      "l"
-      "s"
-      "n";
-      justify-content: center;
-      justify-items: center;
+    justify-content: center; 
+    gap: 5px; 
   }
 
-  .name {
-    grid-area: n;
-    font-size: 12px;
-  }
-
-  .social-media {
-    grid-area: s;
-  }
-
-  .language {
-    grid-area: l;
-  }
-
-  .social-media i {
-    font-size: 16px;
-    color: var(--cor-8);
+  .language i {
+    font-size: initial;
   }
 }
