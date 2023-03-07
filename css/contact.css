@@ -46,22 +46,11 @@
   color: var(--cor-8);
 }
 
-/* .connect-items h3::after,
-.contact-items h3::after {
-  content: "";
-  display: block;
-  bottom: -5px;
-  width: 30px;
-  height: 4px;
-  background-color: var(--cor-p1);
-  position: absolute;
-} */
-
 .connect-items a,
 .contact-items a {
   margin-bottom: 8px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   transition: all 20s ease;
 }
