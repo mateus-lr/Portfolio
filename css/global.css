@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'Figtree', sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
 }
 
 *::-webkit-scrollbar {
@@ -37,4 +37,8 @@ img {
 #site {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+body {
+  background-color: var(--cor-12);
 }

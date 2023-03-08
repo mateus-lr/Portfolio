@@ -95,7 +95,7 @@
   text-transform: uppercase;
   letter-spacing: 3.6px;
   padding: 15px 0px;
-  color: var(--cor-1);
+  color: var(--cor-11);
   transition: 0.5s ease;
   position: relative; 
 }

@@ -1,5 +1,5 @@
 #intro {
-  background-color: var(--cor-0);
+  background-color: var(--cor-11);
   padding-top: 65px;
   display: flex;
   text-align: center;
@@ -40,7 +40,7 @@
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: var(--cor-1);
+  color: var(--cor-4);
   position: relative;
 }
 

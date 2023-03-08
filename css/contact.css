@@ -1,135 +1,102 @@
+#contact-bg {
+  background-color: var(--cor-11);
+  padding-top: 65px;
+  height: 100vh;
+  background: var(--cor-11) url(../img/bg-contact.svg) no-repeat 500px bottom;
+}
+
 #contact-section {
   max-width: 1400px;
-  background-color: var(--cor-0);
-  padding: 65px 100px;
-  margin: 0 auto;
 }
 
-.initial {
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--cor-p1);
+.title strong,
+.span-1 {
+  font-size: 120px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Atyp Display';
+  margin-bottom: 40px;
+  line-height: 100%;
 }
 
-.title {
-  font-size: 68px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.title span {
-  padding-bottom: 20px;
+.title strong {
+  padding-left: 60px;
 }
 
 #subtitle {
   font-size: 18px;
   margin-bottom: 10px;
   line-height: 2;
-  color: var(--cor-8);
 }
 
 .contact {
-  display: flex;
-  gap: 200px;
+  margin-top: 60px;
+  color: var(--cor-12);
 }
 
-.connect-items h3,
-.contact-items h3 {
+.contact h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-links {
+  padding-left: 20px;
   font-size: 24px;
-  font-weight: 800;
-  margin-bottom: 30px;
-  position: relative;
-  color: var(--cor-8);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.connect-items a,
-.contact-items a {
-  margin-bottom: 8px;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-  transition: all 20s ease;
+.contact-links li a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.connect-items a::before,
-.contact-items a::before {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 24px;
-  background-color: var(--cor-p1);
-  position: absolute;
-  top: 0px;
-  left: -10px;
-  transition: .2s ease;
-  opacity: 0;
-}
-
-.connect-items a:hover,
-.contact-items a:hover {
-  color: var(--cor-p1);
-}
-
-.connect-items a:hover::before,
-.contact-items a:hover::before {
-  opacity: 1;
-}
-
-@media (max-width: 640px) {
-  #contact-section {
-    padding: 85px 10px;
-    height: 100vh;
-    overflow-y: hidden;
+@media (max-width: 860px) {
+  #contact-bg {
+    background-size: 80%;
+    background-position: bottom;
   }
 
-  .contact {
-    gap: 100px;
+  #contact-section {
+    margin-left: 5px;
   }
 }
 
 @media (max-width: 420px) {
   .contact {
-    flex-direction: column;
-    gap: 20px;
+    margin-top: 40px;
   }
 
-  .title {
-    font-size: 58px;
-    margin-bottom: 0px;
+  .title strong,
+  .span-1 {
+    font-size: 100px;
   }
+}
 
-  .title span {
-    display: none;
-  }
-
-  #subtitle {
-    font-size: 16px;
-    margin-bottom: 0px;
-  }
-
-  .line {
-    margin-bottom: 5px;
-  }
-
-  .contact {
-    gap: 20px;
-  }
-
-  .connect-items h3,
-  .contact-items h3 {
-    margin-bottom: 20px;
-  }
-
-  .connect-items a,
-  .contact-items a {
-    font-size: 16px;
+@media (max-width: 375px) {
+  #contact-section {
     margin-left: 10px;
   }
 
-  .connect-items a::before,
-  .contact-items a::before {
-    height: 20px;
-    opacity: 1;
+  .title strong,
+  .span-1 {
+    font-size: 80px;
+  }
+
+  .contact-links {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 325px) {
+  #contact-bg {
+    background-image: none;
+  }
+
+  .contact {
+    margin-top: 20px;
   }
 }

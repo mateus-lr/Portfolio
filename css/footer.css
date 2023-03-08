@@ -21,7 +21,12 @@ footer {
 .name {
   display: flex;
   gap: 5px;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.name a:hover {
+  transition: .3s ease;
+  color: var(--cor-p1);
 }
 
 .language a {
@@ -43,8 +48,8 @@ footer {
 
 @media (max-width: 436px) {
   .footer {
-    justify-content: center; 
-    gap: 5px; 
+    justify-content: center;
+    gap: 5px;
   }
 
   .language i {
